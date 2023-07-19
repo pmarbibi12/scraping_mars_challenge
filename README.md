@@ -15,8 +15,8 @@ by Panfilo Marbibi
     - This Jupyter Notebook scrapes data from 'https://static.bc-edx.com/data/web/mars_news/index.html'
     - First, it scrapes the main body of the website that contains text
     - Next, it uses the scraped data to pull the article names and article summaries.
-    - Article names and summaries are then stored into a list of dictionaries, labeling the title and summary.
-    - The list is then saved into a JSON file for later use
+    - Article names and summaries are then stored in a list of dictionaries, labeling the title and summary.
+    - The list is then saved into a JSON file in the "output" folder for later use
 - part_2_mars_weather.ipynb
     - This Jupyter Notebook scrapes the table from "https://static.bc-edx.com/data/web/mars_facts/temperature.html"
     - Using BeautifulSoup, this takes the table and stores it into a variable
@@ -35,5 +35,6 @@ by Panfilo Marbibi
     - The above graphs are also reconstructed and ordered in ascending order to show which month has the lowest average temperature, and which month has the highest average temperature.
     - A graph in ascending order is also constructed to show which months have the lowest atmospheric pressure and which months have the highest atmospheric pressure on average
     - A graph of the number of terrestrial days recorded vs the minimum temperatures is constructed to calculate the number of terrestrial days (on Earth) equal to a year on Mars, or a full revolution around the Sun of Mars, by taking the distance from peak to peak.
+    - The notebook then saves the data into a CSV file in the "output" folder for later use
  
 --Coding used was derived from classroom activities
